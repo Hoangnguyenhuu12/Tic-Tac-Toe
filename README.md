@@ -2,7 +2,7 @@
 
 A clean, responsive Tic-Tac-Toe / Gomoku web game built with vanilla HTML, CSS, and JavaScript — no frameworks or dependencies required.
 
-🔗 **Live demo:** `https://Hoangnguyenhuu12.github.io/Tic-Tac-toe`
+🔗 **Live demo:** `https://Hoangnguyenhuu12.github.io/X-O-Game`
 
 ---
 
@@ -38,7 +38,7 @@ No build step needed. Just open the file in a browser:
 
 ```bash
 # Clone the repo
-git clone https://github.com/Hoangnguyenhuu12/Tic-Tac-toe.git
+git clone https://github.com/Hoangnguyenhuu12/X-O-Game.git
 cd xoxo-game
 
 # Open directly
@@ -66,7 +66,7 @@ Then visit `http://localhost:3000`.
 1. Push the project to a **public** GitHub repository.
 2. Go to **Settings → Pages**.
 3. Under *Source*, select **Deploy from a branch → main → / (root)**.
-4. Save — your game will be live at `https://Hoangnguyenhuu12.github.io/Tic-Tac-Toe` within a minute.
+4. Save — your game will be live at `https://Hoangnguyenhuu12.github.io/X-O-Game` within a minute.
 
 ---
 
