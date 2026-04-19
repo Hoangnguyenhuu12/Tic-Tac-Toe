@@ -1,4 +1,4 @@
-# Tic Tac Toe Game
+# X-O Game
 
 A clean, responsive Tic-Tac-Toe / Gomoku web game built with vanilla HTML, CSS, and JavaScript — no frameworks or dependencies required.
 
