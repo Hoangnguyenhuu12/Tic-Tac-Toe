@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='none' stroke='%231a1a1a' stroke-width='2'/><line x1='30' y1='30' x2='70' y2='70' stroke='%231a1a1a' stroke-width='2' stroke-linecap='round'/><line x1='70' y1='30' x2='30' y2='70' stroke='%231a1a1a' stroke-width='2' stroke-linecap='round'/></svg>">
+</head>
+<body>
+
+<div id="game-root">
+  <h2 class="sr-only">Tic-Tac-Toe / Gomoku — play X vs O</h2>
+
+  <div class="topbar">
+    <button class="theme-btn" onclick="toggleMapMode()">
+      <span id="map-label">15×15</span>
+    </button>
+    <button class="theme-btn" onclick="toggleTheme()">
+      <span id="theme-label">Dark mode</span>
+    </button>
+  </div>
+
+  <div class="title-row">
+    <span class="title-x">X</span>
+    <span class="title-sep">×</span>
+    <span class="title-o">O</span>
+  </div>
+
+  <div class="score-row">
+    <div class="score-cell">
+      <span class="score-label lx">X Wins</span>
+      <span class="score-num" id="score-x">0</span>
+    </div>
+    <div class="score-cell">
+      <span class="score-label">Draws</span>
+      <span class="score-num" id="score-d">0</span>
+    </div>
+    <div class="score-cell">
+      <span class="score-label lo">O Wins</span>
+      <span class="score-num" id="score-o">0</span>
+    </div>
+  </div>
+
+  <div class="status-bar" id="status">X goes first</div>
+
+  <!-- Board cells are injected by JS -->
+  <div class="board" id="board"></div>
+
+  <div class="turn-indicator">
+    <div class="turn-dot" id="turn-dot" style="background: var(--x-color)"></div>
+    <span id="turn-text">X's turn</span>
+  </div>
+
+  <div class="controls">
+    <button class="active" id="btn-2p" onclick="setGameMode('2p')">2 Players</button>
+    <button id="btn-ai" onclick="setGameMode('ai')">vs CPU</button>
+    <button class="restart-btn" onclick="restart()">New Game</button>
+  </div>
+</div>
+
+<script src="js/game.js"></script>
+</body>
+</html>
