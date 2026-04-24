@@ -39,7 +39,7 @@ No build step needed. Just open the file in a browser:
 ```bash
 # Clone the repo
 git clone https://github.com/Hoangnguyenhuu12/X-O-Game.git
-cd xoxo-game
+cd X-O-Game
 
 # Open directly
 open index.html          # macOS
