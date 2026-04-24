@@ -2,7 +2,7 @@
 
 A clean, responsive Tic-Tac-Toe / Gomoku web game built with vanilla HTML, CSS, and JavaScript — no frameworks or dependencies required.
 
-🔗 **Live demo:** `https://Hoangnguyenhuu12.github.io/X-O-Game`
+🔗 **Live demo:** [X-O-Game](https://Hoangnguyenhuu12.github.io/X-O-Game)
 
 ---
 
